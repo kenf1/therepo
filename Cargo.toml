@@ -1,6 +1,8 @@
 [package]
 name = "therepo"
 authors = ["kenf1"]
+repository = "https://github.com/kenf1/therepo"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 
