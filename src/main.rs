@@ -8,7 +8,7 @@ async fn main() -> Result<(),Box<dyn std::error::Error>>{
 
     //get specific version url
     let latest_release = func::parse_tag(url).await?;
-    let apk_url = func::parse_ver(latest_release,"arm64").await?;
+    let apk_url = func::parse_ver(latest_release,"parallel.A").await?;
     // func::debug_fn(&apk_url);
 
     /*
